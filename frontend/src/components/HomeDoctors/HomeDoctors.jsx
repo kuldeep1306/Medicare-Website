@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { homeDoctorsStyles, iconSize } from "../../assets/dummyStyles";
 
 const HomeDoctors = ({ apiBase, previewCount = 8 }) => {
-  const API_BASE = apiBase || "https://medicare-back.onrender.com";
+  const API_BASE = apiBase || "https://medicare-website-6.onrender.com";
   const [doctors, setDoctors] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");

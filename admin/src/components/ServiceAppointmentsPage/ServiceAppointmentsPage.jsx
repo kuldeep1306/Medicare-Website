@@ -19,7 +19,7 @@ import { serviceAppointmentsStyles } from "../../assets/dummyStyles";
 /* ----------------------
   Config
 ------------------------ */
-const API_BASE = "https://medicare-back.onrender.com";
+const API_BASE = "https://medicare-website-6.onrender.com";
 
 /* ----------------------
   Helpers

@@ -23,7 +23,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { useAuth, useUser } from "@clerk/clerk-react";
 import { doctorDetailStyles } from "../../assets/dummyStyles";
 
-const API_BASE = "https://medicare-back.onrender.com";
+const API_BASE = "https://medicare-website-6.onrender.com";
 
 function getScheduleDates(schedule) {
   if (!schedule) return [];

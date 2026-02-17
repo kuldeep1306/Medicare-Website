@@ -15,7 +15,7 @@ import { addServiceStyles } from "../../assets/dummyStyles";
 
 
 export default function AddService({ apiBase, serviceId }) {
-  const API_BASE = apiBase || "https://medicare-back.onrender.com";
+  const API_BASE = apiBase || "https://medicare-website-6.onrender.com";
 
   const fileRef = useRef(null);
   const [imagePreview, setImagePreview] = useState(null); // either objectURL or remote imageUrl

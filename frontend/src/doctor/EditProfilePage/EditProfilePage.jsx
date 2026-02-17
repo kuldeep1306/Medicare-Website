@@ -59,7 +59,7 @@ function dedupeAndSortSchedule(schedule = {}) {
 export default function EditProfilePage({ apiBase }) {
   const { id } = useParams(); // expects route like /doctor-edit/:id
   const navigate = useNavigate();
-  const API_BASE = "https://medicare-back.onrender.com/api/doctors";
+  const API_BASE = "https://medicare-website-6.onrender.com/api/doctors";
 
   const [doc, setDoc] = useState(null);
   const [editing, setEditing] = useState(false);
