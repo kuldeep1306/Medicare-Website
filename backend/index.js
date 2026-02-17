@@ -15,7 +15,7 @@ const port = process.env.PORT || 4000;
 
 // ⭐ IMPORTANT: ENABLE CREDENTIALS FOR CLERK COOKIE SESSION
 const allowedOrigins = [
-  "https://medicare-front.onrender.com", // user frontend
+  "https://hospital-front-ui5l.onrender.com", // user frontend
   "https://medicare-admi.onrender.com", // admin dashboard
 ];
 
